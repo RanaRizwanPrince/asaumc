@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Allama Shabbir Ahmed Usmani Medical Complex</h1>
+      <h1>Welcome to <br /> Allama Shabbir Ahmed Usmani Medical Complex</h1>
     </>
   )
 }
