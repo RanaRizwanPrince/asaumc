@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import Home from './Components/Home';
+import HospitalPreloader from "./Components/HospitalPreloader";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Welcome to <br /> Allama Shabbir Ahmed Usmani Medical Complex</h1>
+      <Home />
+      <HospitalPreloader />
     </>
   )
 }
-
 export default App
