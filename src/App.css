@@ -41,6 +41,9 @@
 
 @media (max-width:500px) {
   .header {
+    height: auto;
+    padding: 50px 0px;
+
     .content {
       img {
         width: 80%;
